@@ -95,7 +95,8 @@ export default function PrimarySearchAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left' }}>
         <Typography variant="h6" sx={{ padding: 2, color:"#00BFA6", fontWeight:"bold"}} >
-            <a style={{ color: '#00BFA6', textDecoration: 'none' }} href='/'> Yaya</a>
+            <a style={{ color: '#00BFA6', textDecoration: 'none' }} href='/'> Rate Radar
+</a>
         </Typography>
         <Divider />
         <List>
@@ -147,7 +148,7 @@ export default function PrimarySearchAppBar(props) {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', md: 'flex' } }}
+            sx={{ display: 'flex', alignItems:'center'  }}
           >
             <a className={classes.title} href='/'>Rate Radar</a>
           </Typography>

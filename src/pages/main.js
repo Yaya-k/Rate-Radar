@@ -147,7 +147,7 @@ export default function PrimarySearchAppBar(props) {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', md: 'flex' } }}
+            sx={{ display: 'flex', alignItems:'center'  }}
           >
             <a className={classes.title} href='/'>Rate Radar</a>
           </Typography>
